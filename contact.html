@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1> My Contact Details </h1>
+    <ol>
+      <li> Phone: +355 69 707 9155 </li>
+      <li> E-mail: gkampari@gmail.com </li>
+      <li> Instagram: lalupi_43 </li>
+    </ol>
+
+    <hr>
+    <form action="mailto:fkazazi2001@gmail.com" method="post" enctype="text/plain"> <!-- ^^ this is to declare a form | action => sends the info. to an email address | enctype => sets the encoding type of the info. sent through email-->
+      <label> Your Name: </label> <!-- name of the input area -->
+      <input type="text" name="user'sName" value=""> <!-- type => sets the type of the input area (CHECK "inputs.html" FOR MORE!!) | name => used for labeling the info. on the email-->
+      <br>
+      <label> Your Email: </label>
+      <input type="email" name="user'sEmail" value="">
+      <br>
+      <label> Your Message: </label>
+      <br>
+      <textarea name="user'sMessage" rows="10" cols="30"></textarea> <!-- the size can be adjusted by the user. This is only used as a pre-set for when it first shows up-->
+      <input type="submit" name="">
+    </form>
+  </body>
+</html>
