@@ -186,12 +186,15 @@ section {
   h1 {
     font-size: 3.2rem;
   }
+  .logo_div > img {
+    height: 3.07rem;
+  }
   .navbar_btn {
     font-size: 1.0rem;
     padding: 0.1rem 0.7rem 0.5rem;
   }
-  .logo_div > img {
-    height: 3.07rem;
+  .sm_div {
+    top: 6.734rem;
   }
   /* section {
     padding-top: 14rem;
